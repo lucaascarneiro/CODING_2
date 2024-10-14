@@ -1,0 +1,45 @@
+body {
+  background-color: #1E201E;
+}
+
+h1 {
+  color: white;
+}
+
+header {
+  text-align: center;
+}
+
+.apresentacao {
+  padding: 10px;
+  background-color: #1D1C1A;
+  color: white;
+}
+
+.fotoperfil {
+  border-radius: 150px;
+  border-style: solid;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.sobre {
+  padding: 15px;
+  background-color: #3C3D37;
+  color: white;
+}
+
+.sobrecontainer {
+  padding: 10px;
+}
+
+.formacao {
+  padding: 10px;
+  background-color: #697565;
+}
+
+.formacaocontainer {
+  padding: 10px;
+}
