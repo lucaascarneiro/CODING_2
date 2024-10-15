@@ -54,6 +54,7 @@
                 <option value="1">Português PT-BR</option>
                 <option value="2">English US</option>
                 <option value="3">Espanhol</option>
+                <option value="4">Outro</option>
             </select>
         </div>
 
@@ -97,10 +98,51 @@
             <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
                 <label class="form-check-label" for="flexSwitchCheckDefault">Outra</label>
+                <br>
             </div>
         </div>
 
+        <div class="turnos">
+            <br>
+            <label for="formFileMultiple" class="form-label">Turnos para reuniões</label>
+            <br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Manhã</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Tarde</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                <label class="form-check-label" for="inlineCheckbox2">Noite</label>
+            </div>
+        </div>
+
+        <div class="horarios">
+            <br>
+            <label for="formFileMultiple" class="form-label">Horário sugerido</label>
+            <input type="time">
+        </div>
+
+        <div class="data">
+            <br>
+            <label for="formFileMultiple" class="form-label">Data sugerida</label>
+            <input type="date">
+        </div>
     </div>
+
+    <div class="confirmacao">
+        <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+        <label class="btn btn-outline-success" for="success-outlined">Enviar</label>
+
+        <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+        <label class="btn btn-outline-danger" for="danger-outlined">Limpar</label>
+    </div>
+
+
+
 </body>
 
 </html>
