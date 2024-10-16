@@ -30,7 +30,7 @@ header {
 }
 
 .sobrecontainer {
-  padding: 10px;
+  padding: 20px;
 }
 
 .formacao {
@@ -40,11 +40,25 @@ header {
 }
 
 .formacaocontainer {
-  padding: 10px;
+  padding: 20px;
 }
 
 .experiencia {
   padding: 10px;
   color: white;
   background-color: #F2613F;
+}
+
+.experienciacontainer {
+  padding: 20px;
+}
+
+.contato {
+  padding: 10px;
+  color: white;
+  background-color: #F2613F;
+}
+
+.contatocontainer {
+  text-align: center;
 }
