@@ -17,7 +17,7 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Pedro Lucas</a>
+        <a class="navbar-brand" href="#apresentacao">Pedro Lucas</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,13 +25,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+              <a class="nav-link active" aria-current="page" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Formação</a>
+              <a class="nav-link" href="#formacao">Formação</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiência</a>
+              <a class="nav-link" href="#experiencia">Experiência</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -56,7 +56,7 @@
       </div>
     </nav>
 
-    <div class="apresentacao">
+    <div id="apresentacao" class="apresentacao">
       <img src="lucas.jpg" alt="fotoperfil" class="fotoperfil">
       <h1 class="display-1">Pedro Lucas</h1>
       <h2 class="display-5">Analista de Sistemas</h2>
@@ -65,18 +65,21 @@
     </div>
   </header>
 
-  <div class="sobre">
+  <div id="sobre" class="sobre">
     <h2 class="display-6">Sobre</h2>
     <div class="sobrecontainer">
       <p>
-        Me chamo Pedro Lucas, tenho 18 anos e moro em Recife. <br>
-        Atualmente, me encontro cursando o 2 período de
-        Análise e Desenvolvimento de Sistemas na Faculdade SENAC.
+        Me chamo Pedro Lucas e futuramente serei um desenvolvedor Back-End!
+        Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Faculdade SENAC de Pernambuco.
+        <br> Desde novo sou fascinado pela área de tecnologia, acabei tendo meu primeiro contato com Desenvolvimento de
+        Softwares com linguagem Java na minha pré-adolescência,
+        o que acabou me fazendo me apaixonar pela área, e agora, estou no processo para me formar como um Analista de
+        Sistemas.
       </p>
     </div>
   </div>
 
-  <div class="formacao">
+  <div id="formacao" class="formacao">
     <h2 class="display-6">Formação</h2>
     <div class="formacaocontainer">
       <table class="table table-borderless">
@@ -91,7 +94,7 @@
         <tbody class="table-group-divider">
           <tr>
             <th scope="row"></th>
-            <td><a href="https://faculdadesenacpe.edu.br/" target="_blank">Faculdade SENAC</a></td>
+            <td><a class="linkfacul" href="https://faculdadesenacpe.edu.br/" target="_blank">Faculdade SENAC</a></td>
             <td>Análise e Desenvolvimento de Sistemas</td>
             <td>2024 - 2026</td>
           </tr>
@@ -100,7 +103,7 @@
     </div>
   </div>
 
-  <div class="experiencia">
+  <div id="experiencia" class="experiencia">
     <h2 class="display-6">Experiência</h2>
     <div class="experienciacontainer">
       <li>
@@ -109,8 +112,8 @@
     </div>
   </div>
 
-  <div class="contato">
-    <h2 class="display-6">Contatos</h2>
+  <div class="redes">
+    <h2 class="display-6">Redes</h2>
     <div class="contatocontainer">
       <ul>
         <a href="https://github.com/lucaascarneiro" target="_blank"><img src="componentes/github icon.png"
@@ -120,6 +123,15 @@
       </ul>
     </div>
   </div>
-</body>
+
+  <div class="copyright">
+    <div class="footer text-center justify-content-between align-items-center py-3 my-4 border-top">
+      <footer>
+        <span>
+          Copyright © 2024 Pedro Lucas. Todos os Direitos Reservados.
+        </span>
+      </footer>
+    </div>
+  </div>
 
 </html>

@@ -8,8 +8,8 @@ header {
 
 .apresentacao {
   padding: 10px;
-  background-color: #0C0C0C;
-  color: white;
+  background-color: white;
+  color: 1E201E;
 }
 
 .fotoperfil {
@@ -19,13 +19,9 @@ header {
   border-style: solid;
 }
 
-.navbar-nav {
-  align-items: center;
-}
-
 .sobre {
   padding: 15px;
-  background-color: #481E14;
+  background-color: #1E201E;
   color: white;
 }
 
@@ -36,7 +32,13 @@ header {
 .formacao {
   color: white;
   padding: 10px;
-  background-color: #9B3922;
+  background-color: #3C3D37;
+
+}
+
+/* retirar cor azulada de links */
+a:link {
+  color: inherit;
 }
 
 .formacaocontainer {
@@ -46,19 +48,24 @@ header {
 .experiencia {
   padding: 10px;
   color: white;
-  background-color: #F2613F;
+  background-color: #697565;
 }
 
 .experienciacontainer {
   padding: 20px;
 }
 
-.contato {
+.redes {
   padding: 10px;
   color: white;
-  background-color: #F2613F;
+  background-color: #ECDFCC;
 }
 
 .contatocontainer {
   text-align: center;
+}
+
+.footer {
+  background-color: white;
+  color: #1E201E;
 }
