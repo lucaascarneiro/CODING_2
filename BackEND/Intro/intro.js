@@ -1,4 +1,4 @@
-// Saída de dados
+// Saída de dados no console
 console.log ('salve');
 
 // Uma constante é um tipo de variável cujo valor não pode ser alterado. Depois de uma constante é inicializada, não podemos alterar seu valor.
