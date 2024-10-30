@@ -17,3 +17,7 @@ console.log (valor1 === valor2) // saida: false
 
 // typeof: mostra a tipagem da variavel
 console.log(typeof(num)) // saida: number
+
+// Conversor: ele converte o 3 que está como string em número por causa do + 2
+result = '3' + 2
+console.log(result, '-', typeof(result))
